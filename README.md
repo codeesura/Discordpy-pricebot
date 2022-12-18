@@ -47,4 +47,17 @@ Add Bot'a tıklayıp botunuzu oluşturun
 Token'ınızı bir kere oluşturulduğunda, "Copy" (Kopyala) butonuna tıklayarak token'ınızı kopyalayabilir ve token'ınızı güvenli bir yerde saklayabilirsiniz.
 ![image](https://user-images.githubusercontent.com/120671243/208293471-cbea2248-d58d-4749-a2a9-2cd1160a9f3e.png)
 
+Discord token oluşturduktan sonra aşağıdaki kodu girip repoyu bilgisayarınıza ekleyin ;
+
+```
+git clone https://github.com/codeesura/Discord-bitcoin-price-bot
+```
+
+ardından gerekli kütüphaneleri indirelim ;
+
+```
+pip install -r requirements.txt
+```
+
+Kütüphaneler de indikten sonra ``config.py`` dosyasındaki ``DISCORD_TOKEN`` "YOUR_TOKEN" kısmına kendi tokeninizi yazıp kaydedin. 
 
