@@ -22,3 +22,28 @@
 ````print('blockland Bitocinbot hazir')```` satırı, botun hazır olduğunu gösteren bir mesaj yazdırır.
 
 ````client.run(config.BITCOIN_TOKEN)```` satırı, botun API anahtarını kullanarak botu çalıştırır. API anahtarı, ````config.py```` dosyasından içe aktarılır.
+
+# KURULUM
+
+Discord token'ınızı oluşturmak için Discord Developer Portal'ını ziyaret etmelisiniz. Bu portal, Discord botlarınızı oluşturmanız için gerekli olan token ve diğer bilgileri sağlar. Aşağıdaki adımları takip ederek Discord token'ınızı oluşturabilirsiniz:
+
+Discord Developer Portal'ına gidin ve üye olun veya giriş yapın.
+https://discord.com/developers/applications
+
+Sol menüde "Applications" (Uygulamalar) sekmesine tıklayın.
+"New Application" (Yeni Uygulama) butonuna tıklayın ve uygulamanız için bir isim verin.
+![image](https://user-images.githubusercontent.com/120671243/208293307-ebb80bc7-667e-4232-8291-58d493fd357f.png)
+
+"Create" (Oluştur) butonuna tıklayın ve uygulamanız oluşturun.
+![image](https://user-images.githubusercontent.com/120671243/208293343-9aec62fb-a148-43d2-93cc-dfbe558451d5.png)
+
+![image](https://user-images.githubusercontent.com/120671243/208293418-ace472c6-ea9b-4523-ba2e-0a0bacb3d226.png)
+
+Add Bot'a tıklayıp botunuzu oluşturun
+![image](https://user-images.githubusercontent.com/120671243/208293445-91565c9e-a284-4fed-afe5-6ba5ef92c383.png)
+
+"Reset token" (Yeni bir token oluştur) sekmesine tıklayın ve bir token oluşturun.
+Token'ınızı bir kere oluşturulduğunda, "Copy" (Kopyala) butonuna tıklayarak token'ınızı kopyalayabilir ve token'ınızı güvenli bir yerde saklayabilirsiniz.
+![image](https://user-images.githubusercontent.com/120671243/208293471-cbea2248-d58d-4749-a2a9-2cd1160a9f3e.png)
+
+
