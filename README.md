@@ -50,7 +50,7 @@ Token'ınızı bir kere oluşturulduğunda, "Copy" (Kopyala) butonuna tıklayara
 Discord token oluşturduktan sonra aşağıdaki kodu girip repoyu bilgisayarınıza ekleyin ;
 
 ```
-git clone https://github.com/codeesura/Discord-bitcoin-price-bot
+git clone https://github.com/codeesura/Discordpy-pricebot
 ```
 
 ardından gerekli kütüphaneleri indirelim ;
