@@ -23,7 +23,7 @@
 
 ````client.run(config.BITCOIN_TOKEN)```` satırı, botun API anahtarını kullanarak botu çalıştırır. API anahtarı, ````config.py```` dosyasından içe aktarılır.
 
-# KURULUM
+# Kurulum
 
 Discord token'ınızı oluşturmak için Discord Developer Portal'ını ziyaret etmelisiniz. Bu portal, Discord botlarınızı oluşturmanız için gerekli olan token ve diğer bilgileri sağlar. Aşağıdaki adımları takip ederek Discord token'ınızı oluşturabilirsiniz:
 
