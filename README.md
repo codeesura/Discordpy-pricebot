@@ -35,6 +35,7 @@ Sol menüde "Applications" (Uygulamalar) sekmesine tıklayın.
 ![image](https://user-images.githubusercontent.com/120671243/208293307-ebb80bc7-667e-4232-8291-58d493fd357f.png)
 
 "Create" (Oluştur) butonuna tıklayın ve uygulamanız oluşturun.
+
 ![image](https://user-images.githubusercontent.com/120671243/208293343-9aec62fb-a148-43d2-93cc-dfbe558451d5.png)
 
 ![image](https://user-images.githubusercontent.com/120671243/208293418-ace472c6-ea9b-4523-ba2e-0a0bacb3d226.png)
