@@ -10,9 +10,9 @@ client = commands.Bot(command_prefix = '$')
 async def status_task():
     while True:
         try :
-            getir = requests.get("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true").text
+            getir = requests.get("https://api.dexscreener.com/latest/dex/pairs/ethereum/0x4585fe77225b41b697c938b018e2ac67ac5a20c0,0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae").text
             getir = json.loads(getir)
-            getir_usd = int(getir["bitcoin"]["usd"])
+            getir_usd = round(float(getir["pairs"][0]["priceUsd"]),0)
             await asyncio.sleep(15)
             for guild in client.guilds:
                 await guild.me.edit(nick=f"${getir_usd:n}")
